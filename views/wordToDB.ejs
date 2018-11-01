@@ -1,0 +1,15 @@
+<div id="main">
+<%- include("header", {title: title}); %>
+
+<h1>Export word to database</h1>
+<h2>Select a folder with .docx files</h2>
+
+<center>
+<form  class="form-style" method="post" enctype="multipart/form-data">
+    <input type="file" name="fileUpload" accept=".docx" id="fileUpload" webkitdirectory directory multiple>
+    <input type="submit" value="Upload file" name="submit">
+</form>
+
+
+</center>
+</div>

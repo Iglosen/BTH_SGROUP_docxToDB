@@ -1,0 +1,34 @@
+{
+  "name": "myexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "ENV=development electron ."
+  },
+  "pkg": {
+    "assets": "public/**/*.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cookieparser": "^0.1.0",
+    "ejs": "^2.6.1",
+    "electron": "^3.0.5",
+    "express": "^4.16.4",
+    "express-fileupload": "^0.4.0",
+    "formidable": "^1.2.1",
+    "html-to-json": "^0.6.0",
+    "mammoth": "^1.4.6",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "nexe": "^2.0.0-rc.34",
+    "opn": "^5.4.0",
+    "promise-mysql": "^3.3.1",
+    "querystring": "^0.2.0",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {}
+}
